@@ -1,8 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl" lang="fa">
+
   {% include head.html %}
-  <body class="home">
-    {{ content }}
-  {% include footer.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+
+	   
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
   </body>
+
 </html>
